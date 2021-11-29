@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'auth';
+    src: url('auth.otf');
+}
+@font-face{
+    font-family: 'sq';
+    src: url('square.otf');
+}
+@font-face{
+    font-family: 'lib';
+    src: url('l;ib.ttf');
+}
+*{
+    margin: none;
+    padding: none;
+}
+body{
+    background-color: whitesmoke;
+}
+#logodiv{
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+}
+#logodiv a{
+    font-weight: 500;
+    font-family: 'lib';
+    text-decoration: none;
+    color: black;
+    transition: all .2s;
+}
+#logodiv a:hover{
+    color: hsl(103, 100%, 50%);
+    text-shadow: 0px 2px 5px hsl(103, 100%, 50%);
+}
+#menuitem img{
+    width: 100%;
+}
+#menuitem video{
+    width: 100%;
+}
+#menu{
+    width: 100%;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#menuitem{
+    margin-bottom: 50px;
+    width: 40vw;
+    min-width: 700px;
+}
+h1{
+    width: 100%; 
+    text-align: center;
+    font-family: 'lib';
+    font-size: 1.5em;
+    font-weight: 100;
+}
